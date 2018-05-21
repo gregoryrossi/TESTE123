@@ -28,7 +28,7 @@ tBcRN = {
 		local filesToCheckUpdate = {"chipdata.tbl", "kdata.tbl", "term.tbl", "lojista.tbl"}
 		local sMaiorData = hutil.pegaMaiorDataArquivos(filesToCheckUpdate, "%Y%m%d")
 
-		local versaoTabela = sMaiorData
+		local versaoasdasdadsTabela = sMaiorData
 		if #gtVersaoTabelas >= 1 then
 			--LogDebug('tem verstab=' .. gtVersaoTabelas[1].iTipoTabelas .. gtVersaoTabelas[1].iVersaoTabelas, 1, I_LOGDEBUG_TIPO_BC)
 			versaoTabela = versaoTabela .. gtVersaoTabelas[1].iTipoTabelas .. gtVersaoTabelas[1].iVersaoTabelas
