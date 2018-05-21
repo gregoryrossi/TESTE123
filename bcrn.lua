@@ -5,7 +5,7 @@ tBcRN = {
 	--Atualiza os dados do cartao
 	--@author Rafael Felisbino
 	--@param tTrilha	- trilha contendo os dados
-	fDefinirValores = function(tTrilha)
+	fDefinirrValores = function(tTrilha)
 		for sChave, xValor in pairs(tTrilha) do
 			tTransCT.tDadosCartao[sChave] = xValor
 		end
