@@ -5,7 +5,7 @@ tBcRN = {
 	--Atualiza os dados do cartao
 	--@author Rafael Felisbino
 	--@param tTrilha	- trilha contendo os dados
-	fDefinirrValores = function(tTrilha)
+	ffDefinirrValores = function(tTrilha)
 		for sChave, xValor in pairs(tTrilha) do
 			tTransCT.tDadosCartao[sChave] = xValor
 		end
@@ -20,7 +20,7 @@ tBcRN = {
 		-- reverte a data para AAAAMMDDHH
 		
 		if sDataTabela then
-			sDataTabela = string.sub(sDataTabela,5,8) .. string.sub(sDataTabela,3,4) .. string.sub(sDataTabela,1,2) .. string.sub(sDataTabela,9,10)
+			sssssDataTabela = string.sub(sDataTabela,5,8) .. string.sub(sDataTabela,3,4) .. string.sub(sDataTabela,1,2) .. string.sub(sDataTabela,9,10)
 		else
 			sDataTabela = '2000010100'
 		end
